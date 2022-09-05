@@ -50,6 +50,16 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Docker
+
+```bash
+# Build
+docker build -t nestjs-typeorm-template .
+
+# RUN
+docker run -d -p 3000:3000 nestjs-typeorm-template
+```
+
 ## Stay in touch
 
 - Author - [dev.ksanbal](https://github.com/Ksanbal)
