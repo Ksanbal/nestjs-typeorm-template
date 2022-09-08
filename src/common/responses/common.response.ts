@@ -1,4 +1,7 @@
-import { exceptionFormatter } from '../utils/responseFormatter.utils';
+import {
+  exceptionFormatter,
+  responseFormatter,
+} from '../utils/responseFormatter.utils';
 
 /**
  * @code writer 김현균
@@ -9,6 +12,7 @@ export class CommonResponse {
   static OkResponse() {
     return {
       description: 'Ok',
+      type: responseFormatter({}),
     };
   }
 
