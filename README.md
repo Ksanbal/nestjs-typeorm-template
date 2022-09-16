@@ -17,16 +17,22 @@ NestJS & TypeORM(sqlite3) 프로젝트 기본 템플릿입니다.
 
 - Node : v16.17.0
 - NPM : 8.15.0
+- Yarn : 1.22.19
 
 ## Installation
 
 ```bash
+# npm
 $ npm install
+
+# yarn
+$ yarn
 ```
 
 ## Running the app
 
 ```bash
+# npm
 # development
 $ npm run start
 
@@ -35,11 +41,22 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+# yarn
+# development
+$ yarn start
+
+# watch mode
+$ yarn start:dev
+
+# production mode
+$ yarn start:prod
 ```
 
 ## Test
 
 ```bash
+# npm
 # unit tests
 $ npm run test
 
@@ -48,6 +65,16 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
+
+# yarn
+# unit tests
+$ yarn run test
+
+# e2e tests
+$ yarn run test:e2e
+
+# test coverage
+$ yarn run test:cov
 ```
 
 ## Docker
